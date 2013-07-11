@@ -1,0 +1,15 @@
+<h2>New Favorite Question</h2>
+<%= form_for(@favoritequestion) do |f| %> 
+<p>
+<%= f.label :background %><br />
+<%= f.text_field :background %>
+</p>
+<p>
+<%= f.label :QuestionWord %><br />
+<%= f.text_field :QuestionWord %>
+</p>
+<p>
+<%= f.label :SpecificDunno %><br />
+<%= f.text_field :SpecificDunno %>
+<%= f.submit %>
+<% end %>

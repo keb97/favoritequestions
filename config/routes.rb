@@ -1,4 +1,8 @@
-Favoritequestions::Application.routes.draw do
+  Favoritequestions::Application.routes.draw do
+resources :favoritequestions
+
+
+  root :to => "favoritequestions#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
